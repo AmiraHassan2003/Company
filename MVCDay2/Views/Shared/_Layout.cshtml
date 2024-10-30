@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MVCDay2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+     @* <link rel="stylesheet" href="~/css/editCompany.css" /> *@
+
+    @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MVCDay2.styles.css" asp-append-version="true" />
+    
+    <style>
+        .nav-link{
+            color: white;
+            background-color: #795548;
+            padding: 9px;
+            border-radius: 8px;
+            margin-left: 1rem;
+
+        }
+    </style>
+</head>
+<body style="background: url('@Url.Content("~/image/procat1.jpg")') no-repeat;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;">
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" style="color:white" href="/../Company/GetAll">Company</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white" href="/../Employee/GetAll">Employee</a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+    <div class="container" style="display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #00000047;
+    position: relative;">
+
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="~/js/site.js" asp-append-version="true"></script>
+     @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

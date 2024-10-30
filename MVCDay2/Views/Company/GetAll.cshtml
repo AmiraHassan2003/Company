@@ -1,0 +1,33 @@
+﻿@model List<Company>
+
+<table class="table table-dark">
+    <thead>
+
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Type</th>
+            <th scope="col">DateStart</th>
+            <th scope="col">Address</th>
+            <th scope="col">NumberOfEmployee</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <th scope="row">@i.Id</th>
+                <td>@i.Name</td>
+                <td>@i.Type</td>
+                <td>@i.DateStart</td>
+                <td>@i.Address</td>
+                <td>@i.employees.Count()</td>
+                <td><button class="btn btn-primary" style="background-color: #6565bd;"><a style=" color:white; text-decoration:none" href="/Company/GetById/@i.Id" sty>view</a></button></td>
+                <td><button class="btn btn-danger" style="background-color: #ff0000;"><a style=" color:white; text-decoration:none" href="/Company/DeleteCompany/@i.Id">delete</a></button></td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+<button class="btn btn-dark" style="background-color: #000000d1;"><a style=" color:white; text-decoration:none" href="/Company/Create">Add</a> </button>

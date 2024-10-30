@@ -1,0 +1,144 @@
+﻿@using MVCDay2.ViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    SelectList companyList = new SelectList(ViewBag.Companies, "Id", "Name");
+    // SelectList imagesList = new SelectList(ViewBag.Employee, "Id", "Image");
+
+    // SelectList imagesList = new SelectList(ViewBag.Employee, "Image", "Image");
+    
+}
+@model EmployeeViewModel
+ @* @model Employee *@
+<style>
+    .input-box input {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        left: 2%;
+        height: 50%;
+    }
+
+        .input-box input::placeholder {
+            color: white;
+        }
+
+    .form-text {
+        border: 2px solid rgba(255, 255, 255.5);
+        border-radius: 20px;
+        backdrop-filter: blur(15px);
+        display: grid;
+        grid-template-columns: repeat(2, 345px);
+        grid-template-rows: repeat(2, 110px);
+        padding: 10px 0 20px 10px;
+    }
+
+    .btn {
+        color: #fff;
+        background-color: #795548;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        font-size: 17px;
+        cursor: pointer;
+        box-shadow: 3px 0 10px rgba(0,0,0,.5);
+        transition: all .3s ease-in-out;
+    }
+
+    .form-label {
+        color: white;
+        font-size: 18px
+    }
+</style>
+
+<div class="container">
+    <div class="form-box">
+        <h2 style="color: #fff; text-align: center; font-size: 32px; margin-bottom:15px">New Employee</h2>
+        <form method="post" asp-controller="Employee" asp-action="AddEmployee" class="form-text" enctype="multipart/form-data">
+
+          <div class="input-box">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" placeholder="Name">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="input-box">
+                <label asp-for="Age" class="form-label"></label>
+                <input asp-for="Age" placeholder="Age">
+            </div>
+            <div class="input-box">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" placeholder="Email">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="input-box">
+                <label asp-for="Salary" class="form-label"></label>
+                <input asp-for="Salary" placeholder="Salary">
+            </div>
+
+            
+            <div class="input-box">
+                <label asp-for="Address" class="form-label"></label>
+                <input asp-for="Address" placeholder="Address">
+            </div>
+            
+            <div class="input-box">
+                <label asp-for="Phone" class="form-label"></label>
+                <input asp-for="Phone" placeholder="Phone">
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+
+            <div style="display: flex; gap: 20px">
+                <div class="input-box">
+                    <label asp-for="CompanyId" class="form-label">Select Company</label>
+                    <select asp-for="CompanyId" asp-items="companyList" class="form-select"></select>
+                </div>
+
+                <div class="input-box">
+                     @* <label class="form-label" name="Image">Select Image</label>
+                     <select  class="form-select" name="Image">
+                         @foreach (var emp in ViewBag.Employee)
+                         {
+                             if (emp.Image == Model.Image)
+                             {
+                                 <option value="@emp.Image" selected>
+                                     @emp.Image
+                                 </option>
+                             }
+                             else
+                             {
+                                 <option value="@emp.Image">
+                                     @emp.Image
+                                 </option>
+                             }
+
+                         }
+                     </select> *@
+
+                     <label asp-for="Image" class="form-label"></label>
+                    <input asp-for="Image" placeholder="Image">
+                    <span asp-validation-for="Image" class="text-danger"></span>
+
+                 </div>
+                @*<div class="input-box">
+                <label asp-for="Image" class="form-label">Select Image</label>
+                <select asp-for="Image" asp-items="imagesList" class="form-select"></select>
+                </div> *@
+            
+                </div>
+            <div class="button">
+                <input type="submit" value="Create" class="btn" style="color: white; color: white; margin-top: 25px;">
+            </div>
+            
+        </form>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+}
+

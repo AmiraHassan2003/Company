@@ -1,0 +1,28 @@
+﻿@model Company
+
+<div class="card" style="width: 18rem;">
+     @* <img class="card-img-top" src="..." alt="Card image cap"> *@
+    <div class="card-body" style="width: 20rem; background-color: #000000eb;color: white; border-radius: 10px 55px;">
+        <h5 class="card-title" style="text-align: center; font-size: 22px; font-weight: 800; margin-bottom: 2rem;">
+               @Model.Name
+        </h5>
+        <p class="card-text">Type: @Model.Type</p>
+        <p class="card-text">DateStart: @Model.DateStart</p>
+        <p class="card-text">Address: @Model.Address</p>
+        <p class="card-text">Employee Count: @Model.employees.Count()</p>
+        <h6>Employees:</h6>
+        <ul>
+            @foreach (var employee in Model.employees)
+            {
+                <li>@employee.Name</li>
+            }
+        </ul>
+        <button class="btn btn-primary" style="background-color: #6565bd;width: 100%; margin-top: 20px;">
+            <a style=" color:white; text-decoration:none" href="/Company/EditCompany/@Model.Id">Edit</a>
+        </button>
+
+    </div>
+</div>
+
+
+  

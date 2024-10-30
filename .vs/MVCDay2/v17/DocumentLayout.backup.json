@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FullStack\\.Net\\Codes\\Company\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D58193F7-0D9C-4512-9AF3-64047E154CF0}|MVCDay2\\MVCDay2.csproj|d:\\fullstack\\.net\\codes\\company\\mvcday2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D58193F7-0D9C-4512-9AF3-64047E154CF0}|MVCDay2\\MVCDay2.csproj|solutionrelative:mvcday2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58193F7-0D9C-4512-9AF3-64047E154CF0}|MVCDay2\\MVCDay2.csproj|d:\\fullstack\\.net\\codes\\company\\mvcday2\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58193F7-0D9C-4512-9AF3-64047E154CF0}|MVCDay2\\MVCDay2.csproj|solutionrelative:mvcday2\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58193F7-0D9C-4512-9AF3-64047E154CF0}|MVCDay2\\MVCDay2.csproj|d:\\fullstack\\.net\\codes\\company\\mvcday2\\controllers\\entitiescontroller\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58193F7-0D9C-4512-9AF3-64047E154CF0}|MVCDay2\\MVCDay2.csproj|solutionrelative:mvcday2\\controllers\\entitiescontroller\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58193F7-0D9C-4512-9AF3-64047E154CF0}|MVCDay2\\MVCDay2.csproj|d:\\fullstack\\.net\\codes\\company\\mvcday2\\views\\employee\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D58193F7-0D9C-4512-9AF3-64047E154CF0}|MVCDay2\\MVCDay2.csproj|solutionrelative:mvcday2\\views\\employee\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58193F7-0D9C-4512-9AF3-64047E154CF0}|MVCDay2\\MVCDay2.csproj|d:\\fullstack\\.net\\codes\\company\\mvcday2\\views\\employee\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D58193F7-0D9C-4512-9AF3-64047E154CF0}|MVCDay2\\MVCDay2.csproj|solutionrelative:mvcday2\\views\\employee\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58193F7-0D9C-4512-9AF3-64047E154CF0}|MVCDay2\\MVCDay2.csproj|d:\\fullstack\\.net\\codes\\company\\mvcday2\\repository\\employee\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58193F7-0D9C-4512-9AF3-64047E154CF0}|MVCDay2\\MVCDay2.csproj|solutionrelative:mvcday2\\repository\\employee\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetById.cshtml",
+              "DocumentMoniker": "D:\\FullStack\\.Net\\Codes\\Company\\MVCDay2\\Views\\Employee\\GetById.cshtml",
+              "RelativeDocumentMoniker": "MVCDay2\\Views\\Employee\\GetById.cshtml",
+              "ToolTip": "D:\\FullStack\\.Net\\Codes\\Company\\MVCDay2\\Views\\Employee\\GetById.cshtml",
+              "RelativeToolTip": "MVCDay2\\Views\\Employee\\GetById.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T18:43:39.868Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\FullStack\\.Net\\Codes\\Company\\MVCDay2\\Controllers\\EntitiesController\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "MVCDay2\\Controllers\\EntitiesController\\EmployeeController.cs",
+              "ToolTip": "D:\\FullStack\\.Net\\Codes\\Company\\MVCDay2\\Controllers\\EntitiesController\\EmployeeController.cs",
+              "RelativeToolTip": "MVCDay2\\Controllers\\EntitiesController\\EmployeeController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwEsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T16:14:58.989Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "D:\\FullStack\\.Net\\Codes\\Company\\MVCDay2\\ViewModel\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "MVCDay2\\ViewModel\\EmployeeViewModel.cs",
+              "ToolTip": "D:\\FullStack\\.Net\\Codes\\Company\\MVCDay2\\ViewModel\\EmployeeViewModel.cs",
+              "RelativeToolTip": "MVCDay2\\ViewModel\\EmployeeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T19:36:52.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FullStack\\.Net\\Codes\\Company\\MVCDay2\\appsettings.json",
+              "RelativeDocumentMoniker": "MVCDay2\\appsettings.json",
+              "ToolTip": "D:\\FullStack\\.Net\\Codes\\Company\\MVCDay2\\appsettings.json",
+              "RelativeToolTip": "MVCDay2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-27T19:36:24.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\FullStack\\.Net\\Codes\\Company\\MVCDay2\\Repository\\Employee\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "MVCDay2\\Repository\\Employee\\EmployeeRepository.cs",
+              "ToolTip": "D:\\FullStack\\.Net\\Codes\\Company\\MVCDay2\\Repository\\Employee\\EmployeeRepository.cs",
+              "RelativeToolTip": "MVCDay2\\Repository\\Employee\\EmployeeRepository.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwFkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:30:36.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditEmployee.cshtml",
+              "DocumentMoniker": "D:\\FullStack\\.Net\\Codes\\Company\\MVCDay2\\Views\\Employee\\EditEmployee.cshtml",
+              "RelativeDocumentMoniker": "MVCDay2\\Views\\Employee\\EditEmployee.cshtml",
+              "ToolTip": "D:\\FullStack\\.Net\\Codes\\Company\\MVCDay2\\Views\\Employee\\EditEmployee.cshtml",
+              "RelativeToolTip": "MVCDay2\\Views\\Employee\\EditEmployee.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T18:01:42.16Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 245,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
